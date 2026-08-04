@@ -1,0 +1,15 @@
+//	Take n as input and print odd numbers from 1 to n using a for loop and continue statement
+import java.util.Scanner;
+public class Forloop2 {
+    public static void main(String [] atgs){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter a number");
+    int n = sc.nextInt();
+    for(int i=0;i<n;i++){
+    if(i%2!=0){
+        System.out.println(""+i);
+    }
+}
+    sc.close();
+}
+}
